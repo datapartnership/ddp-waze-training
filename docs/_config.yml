@@ -1,11 +1,11 @@
 # Book settings
-title:
+title: DDP Waze Training
 author: Development Data Group
-logo: docs/images/logo.png
+logo: docs/images/logo.svg
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/worldbank/template
+  url: https://github.com/datapartnership/ddp-waze-training
   branch: main
 
 #######################################################################################
@@ -16,7 +16,7 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://worldbank.github.io/template
+  baseurl: https://datapartnership.github.io/ddp-waze-training
   extra_footer: |
     <div>
      Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
@@ -24,7 +24,7 @@ html:
     <div>
         <b>All content (unless otherwise specified) is subject to the <a href="https://opensource.org/licenses/MIT">MIT License</a> together with the <a href="https://github.com/worldbank/template/blob/main/WB-IGO-RIDER.md">World Bank IGO Rider</a></b>
     </div>
-  favicon: docs/images/favicon.ico
+  favicon: docs/images/logo.svg
 
 #######################################################################################
 # Execution settings

@@ -3,11 +3,11 @@ requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
 build-backend = "hatchling.build"
 
 [project]
-name = "template"
-description = "A template Python package from the World Bank Data Lab"
+name = "ddp-waze-training"
+description = "A Python project for Development Data Partnership Waze training"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
-keywords = ["template", "reproducibility"]
+keywords = ["waze", "mobility", "reproducibility"]
 authors = [{ name = "Development Data Group", email = "datalab@worldbank.org" }]
 classifiers = [
 	"Programming Language :: Python :: 3",
@@ -17,14 +17,14 @@ classifiers = [
 	"Programming Language :: Python :: 3.10",
 	"Programming Language :: Python :: 3.11",
 	"Programming Language :: Python :: 3 :: Only",
-	"License :: OSI Approved :: MIT License",
+	"License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
 	"Operating System :: OS Independent",
 	"Intended Audience :: Developers",
 	"Topic :: Scientific/Engineering",
 ]
 dynamic = ["version"]
 
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 dependencies = [
 	"bokeh>=3,<4",
 	"requests>=2.28.1",
@@ -38,19 +38,25 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/template"
-"Bug Reports" = "https://github.com/worldbank/template/issues"
-"Source" = "https://github.com/worldbank/template"
+"Homepage" = "https://github.com/datapartnership/ddp-waze-training"
+"Bug Reports" = "https://github.com/datapartnership/ddp-waze-training/issues"
+"Source" = "https://github.com/datapartnership/ddp-waze-training"
 
 [tool.codespell]
 skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
 ignore-regex = '^\s*"image\/png":\s.*'
 ignore-words-list = "gost,Nd"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [tool.hatch.build.targets.sdist]
 include = [
     "src/**/*"
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/template"]
 
 [tool.hatch.version]
 source = "vcs"
