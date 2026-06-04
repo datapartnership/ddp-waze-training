@@ -1,0 +1,22 @@
+config = {
+    "BuenosAires": {
+        "timezone": {
+            "timezone_name": "America/Argentina/Buenos_Aires"
+        },
+        "crs": {
+            "projected_crs":"EPSG:32721"
+        },
+        "geographies": {
+            "admin2": {
+                "name": "Administrative Level 2",
+                "path": "data/barrios_BA.gpkg",
+                "plot_by_geography": True
+              },
+            "hex_id_7": {
+                "name": "Hexagons Level 7",
+                "path": "data/hexagons_BA.gpkg",
+                "plot_by_geography": False
+            }
+        }
+    }
+}
