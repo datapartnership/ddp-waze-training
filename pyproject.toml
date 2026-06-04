@@ -33,6 +33,7 @@ dependencies = [
 	"mapclassify",
 	"folium",
 	"matplotlib",
+	"huggingface_hub",
 	"wazeasy @ git+https://github.com/worldbank/wazeasy.git",
 ]
 [project.optional-dependencies]
