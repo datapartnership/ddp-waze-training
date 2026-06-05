@@ -8,7 +8,7 @@ BuenosAires:
   geographies:
     admin2:
       name: Administrative Level 2
-      path: data/barrios_BA.gpkg
+      path: data/neighborhoods_BA.gpkg
       plot_by_geography: true
 
     hex_id_7:
