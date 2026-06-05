@@ -2,12 +2,11 @@
 
 ## Lead Presenters
 
-- TBD
+- Maria Sol Tadeo, World Bank Group
+- Abril Rodriguez, World Bank Group
 
 ## Training Description
-
-
-## Learning Objectives
+In this session we will teach how to work with Waze Jams dataset. First, we will go over on how to perform a EDA on the data and present cases with anomalies. Secondly, we will show how to build maps of jams and the challenges of them.
 
 
 ## Audience and Prerequisites
@@ -19,16 +18,8 @@
 ## Training Materials
 
 - Slide deck: link
-- Agenda: link
-- Exercises: link
-- Reference documentation: link
+- Reference documentation: [link](https://docs.datapartnership.org/partners/waze/README.html)
 
-## Repository Contents
-
-The navigation below is automatically generated from [docs/_toc.yml](docs/_toc.yml):
-
-```{tableofcontents}
-```
 
 ## Getting Started
 
